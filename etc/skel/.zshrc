@@ -47,3 +47,4 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 #find /home/$USER/.config/bspwm/scripts/color-scripts -type f | shuf | head -n 1 | xargs bash -c
+precmd(){print""}
